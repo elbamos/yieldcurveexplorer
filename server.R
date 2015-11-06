@@ -148,11 +148,11 @@ shinyServer(function(input, output, session) {
 
 	# The time range of the smaller economic chart
 	small_gdp_startdate <- reactive(
-		if (input$dates[2] - input$dates[1] > (365 * input$zoom)) max( input$target %m-% months(input$zoom * 6), as.Date("1964-01-01"))
+		if (input$dates[2] - input$dates[1] > (365 * 4)) max( input$target %m-% months(4 * 6), as.Date("1964-01-01"))
 		else input$dates[1]
 	)
 	small_gdp_enddate <- reactive(
-		if (input$dates[2] - input$dates[1] > (365 * input$zoom)) input$target %m+% months(input$zoom * 6)
+		if (input$dates[2] - input$dates[1] > (365 * 4)) input$target %m+% months(4 * 6)
 		else input$dates[2]
 	)
 

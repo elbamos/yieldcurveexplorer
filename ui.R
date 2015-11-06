@@ -54,10 +54,7 @@ shinyUI(fluidPage(
 																	min = 3, max =18, value = 3,
 																	ticks = TRUE)),
 				absolutePanel(top = 380, height = 150,
-											ggvisOutput("smallGdp"),
-											sliderInput("zoom", "Zoom View (Years)",
-																	min = 1, max = 14, step = 1, value = 7,
-																	ticks = TRUE))
+											ggvisOutput("smallGdp"))
 			)
 		),
 		absolutePanel(width = '100%', height = 300, ggvisOutput("bigGdp"))
