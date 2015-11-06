@@ -1,0 +1,10 @@
+name: shinyyieldcurve
+account: amose
+server: shinyapps.io
+appId: 25480
+bundleId: 305360
+url: https://amose.shinyapps.io/shinyyieldcurve
+when: 1446788083.91643
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: ggj.jpeg|rateTargetsOld.rda|Rplot.jpeg
