@@ -15,4 +15,4 @@ The app will update its data the first time each day that its run, checking if n
 
 The visualization is not bug-free.  In particular, if the user asks to see the S&P or HPI, the lines will not hide if the user later asks to hide them. I did not explore whether it is possible to work around this limitation in the way ggvis handles animation.
 
-The running app is [here](https://amose.shinyapps.io/yieldcurve).
+The running app is [here](https://amose.shinyapps.io/shinyyieldcurve).
